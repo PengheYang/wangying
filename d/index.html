@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 	<head>
-		<title>照片墙</title>
+		<title>小阿莹 晕不晕</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<style>
@@ -120,7 +120,7 @@
 
 		<div id="container"></div>
 		<audio autoplay="" loop=""><source src="http://www.ytmp3.cn/down/72794.mp3"></audio>
-		<div id="info">3D签到墙</div>
+		<div id="info"></div>
 		<div id="menu">
 			<button id="table">表格</button>
 			<button id="sphere">球球</button>
@@ -130,10 +130,10 @@
 
 		<div class="show_info animated" style="display:none;">
 			<div class="info_my">
-				<img src="img/c.png" />
+				<img src="../img/img08.jpg" />
 				<div class="info_mem">
-					<div class="nickname">周雅涵</div>
-					<div class="id">ID:外甥女</div>
+					<div class="nickname">王莹</div>
+					<div class="id">ID:小阿莹</div>
 					<div class="vote">性别：女</div>
 				</div>
 			</div>
@@ -162,7 +162,7 @@
 					$('.show_info').removeClass(_in[rand_in]);
 					// 更改展示的图片
 					var img = document.getElementsByClassName('element')[CurPersonNum].getElementsByTagName('img')[0];
-					img.setAttribute('src','img/a.png');
+					img.setAttribute('src','../img/img06.jpg');
 					++CurPersonNum;
 					setTimeout(function(){
 						$('.show_info').addClass(_out[rand_out]);
@@ -177,7 +177,7 @@
 			// 生成虚拟数据
 	        for(var i=0;i<199;i++){
 				personArray.push({
-		            image: "img/a.png"
+		            image: "../img/img06.jpg"
 		        });
 	        }
 
